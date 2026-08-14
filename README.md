@@ -15,10 +15,11 @@ Le projet démarre par le parsing des tables de partitionnement (MBR / GPT) et v
 ## Fonctionnalités
 
 **Disponible**
-- Parsing du Master Boot Record (MBR) : table de partitions, types, secteurs de début/fin
-- Parsing du GUID Partition Table (GPT) : en-tête, table de partitions, GUID, validation CRC32, comparaison header primaire/secours
+- Rien pour l'instant — aucun code de parsing n'a encore été écrit
 
 **Prévu**
+- Parsing du Master Boot Record (MBR) : table de partitions, types, secteurs de début/fin
+- Parsing du GUID Partition Table (GPT) : en-tête, table de partitions, GUID, validation CRC32, comparaison header primaire/secours
 - Support de systèmes de fichiers : FAT32, NTFS, ext4
 - Récupération de fichiers supprimés (carving)
 - Interface interactive et visuelle (exploration de l'arborescence, timeline, cartographie du disque)
@@ -60,4 +61,4 @@ fsxray/
 
 ## Licence
 
-À définir.
+MIT — voir [LICENSE](LICENSE).
